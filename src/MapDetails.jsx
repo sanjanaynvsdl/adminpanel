@@ -8,7 +8,7 @@ const MAPBOX_TOKEN = 'pk.eyJ1Ijoic2FuamFuYXludnNkbCIsImEiOiJjbWFnZ2h4YTMwMHVyMmt
 mapboxgl.accessToken = MAPBOX_TOKEN;
 
 // Destination coordinates (16°14′N 77°48′E)
-const DESTINATION = [77.8, 16.233333];
+const DESTINATION = [77.6525189, 12.9742939];
 
 export default function MapDetails({ orderHash = 'orderId9:riderId2', isTracking = false, onRiderInfoUpdate }) {
   const mapContainerRef = useRef(null);
