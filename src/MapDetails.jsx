@@ -4,7 +4,7 @@ import 'mapbox-gl/dist/mapbox-gl.css';
 import { io } from 'socket.io-client';
 
 // Mapbox access token
-const MAPBOX_TOKEN = 'pk.eyJ1Ijoic2FuamFuYXludnNkbCIsImEiOiJjbWFnZ2h4YTMwMHVyMmtzN2xoZXg1NmNwIn0.Monymzp3uoEXufc95ywKcA';
+const MAPBOX_TOKEN = 'your_mapbox_token';
 mapboxgl.accessToken = MAPBOX_TOKEN;
 
 // Destination coordinates (16°14′N 77°48′E)
